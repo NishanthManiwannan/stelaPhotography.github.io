@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #272727;
+            position: fixed;
+            height: 100%;
+        }
+
+        li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 20px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 20%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+
+        li a.active {
+            background-color: #636363;
+            color: white;
+        }
+    </style>
+</head>
+
+<body action="#gallery">
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a class="active">My Gallery</a></li>
+    </ul>
+    <div style="margin-left: 28%;">
+        <div class="row">
+            <div class="column">
+                <img src="./15.jpg" style="width:100%">
+                <img src="./10.jpg" style="width:100%">
+                <img src="./11.jpg" style="width:100%">
+                <img src="./12.jpg" style="width:100%">
+                <img src="./13.webp" style="width:100%">
+                <img src="./24.jpg" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="./16.jpg" style="width:100%">
+                <img src="./1.webp" style="width:100%">
+                <img src="./17.jpg" style="width:100%">
+                <img src="./25.jpg" style="width:100%">
+                <img src="./2.jfif" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="./5.jpg" style="width:100%">
+                <img src="./6.jpg" style="width:100%">
+                <img src="./7.jpg" style="width:100%">
+                <img src="./8.jpg" style="width:100%">
+                <img src="./9.jpg" style="width:100%">
+                <img src="./3.webp" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="./14.jpg" style="width:100%">
+                <img src="./10.jpg" style="width:100%">
+                <img src="./21.jfif" style="width:100%">
+                <img src="./22.jpg" style="width:100%">
+                <img src="./23.jpg" style="width:100%">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
